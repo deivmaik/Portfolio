@@ -1,0 +1,13 @@
+@import '../variables';
+@import '../mixins';
+@import '../globals';
+
+.main__layout {
+  overflow: hidden;
+  @include breakpoint-up(large) {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

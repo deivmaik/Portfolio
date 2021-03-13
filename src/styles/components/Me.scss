@@ -1,11 +1,28 @@
-@import 'variables';
-@import 'mixins';
-@import 'globals';
+@import '../variables';
+@import '../mixins';
+@import '../globals';
 
 .main {
   &__photo {
+    margin-top: 5rem;
+    margin-left: -9.5rem;
+    @include breakpoint-up(medium) {
+      margin-left: 10rem;
+    }
+    @include breakpoint-up(large) {
+      margin-left: 10rem;
+    }
     img {
-      height: 50rem;
+      height: 60rem;
+
+      @include breakpoint-up(medium) {
+        height: 58rem;
+        margin-top: 7rem;
+      }
+      @include breakpoint-up(large) {
+        height: 58rem;
+        margin-top: 10rem;
+      }
     }
   }
 }

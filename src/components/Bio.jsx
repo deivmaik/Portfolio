@@ -5,12 +5,16 @@ import linkedIn from '../img/icons/linkedin.svg'
 import archinect from '../img/icons/archinect.svg'
 import '../styles/components/Bio.scss'
 
-function Bio() {
+function Bio({
+  intro,
+  name,
+  desc,
+}) {
   return (
-    <div className="main container">
-      <h1 className="main__intro ">Hi! I am</h1>
-      <h1 className="main__name ">Michael Juarez</h1>
-      <p className="main__desc">Developer, Designer, Architect.</p>
+    <div className="main ">
+      <h1 className="main__intro ">{intro}</h1>
+      <h1 className="main__name ">{name}</h1>
+      <p className="main__desc">{desc}</p>
       <div className="main__social">
         <div>
           <img className="github" src={github} alt="github" />
@@ -21,12 +25,13 @@ function Bio() {
         </div>
 
         <div>
-          <img className="linkedIn" src={linkedIn} alt="linkedIn" />
+          <img className="archinect" src={archinect} alt="archinect" />
         </div>
 
         <div>
-          <img className="archinect" src={archinect} alt="archinect" />
+          <img className="linkedIn" src={linkedIn} alt="linkedIn" />
         </div>
+
       </div>
     </div>
   )

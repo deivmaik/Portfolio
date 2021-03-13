@@ -1,31 +1,52 @@
-@import 'variables';
-@import 'mixins';
-@import 'globals';
+@import '../variables';
+@import '../mixins';
+@import '../globals';
 
 .main {
   text-align: center;
+  @include breakpoint-up(large) {
+    margin: 0;
+    text-align: start;
+  }
   &__intro {
     margin-top: 10rem;
     font-size: $font-xl;
     color: $Dark;
     font-weight: bold;
+
+    @include breakpoint-up(medium) {
+      font-size: $font-desktop-xl;
+    }
   }
   &__name {
     margin-top: -2rem;
     font-size: $font-xl;
     color: $Blue;
     font-weight: bold;
+    @include breakpoint-up(medium) {
+      margin-top: -3.5rem;
+      font-size: $font-desktop-xl;
+    }
   }
   &__desc {
     margin-top: -1rem;
     font-weight: 400;
     color: $Grey;
+    @include breakpoint-up(medium) {
+      font-size: $font-large;
+    }
   }
 
   &__social {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
+
+    @include breakpoint-up(large) {
+      justify-content: start;
+      margin-left: -2rem;
+      cursor: pointer;
+    }
 
     .github,
     .behance,
