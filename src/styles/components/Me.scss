@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'mixins';
+@import 'globals';
+
+.main {
+  &__photo {
+    img {
+      height: 50rem;
+    }
+  }
+}
