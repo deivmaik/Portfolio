@@ -1,10 +1,9 @@
 import React from 'react'
+import Hero from './containers/Hero'
 
 function App() {
   return (
-    <div>
-      <h1>Project</h1>
-    </div>
+    <Hero/>
   )
 }
 
