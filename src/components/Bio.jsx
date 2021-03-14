@@ -3,7 +3,7 @@ import github from '../img/icons/github.svg'
 import behance from '../img/icons/behance.svg'
 import linkedIn from '../img/icons/linkedin.svg'
 import archinect from '../img/icons/archinect.svg'
-import '../styles/components/Bio.scss'
+import '../styles/components/bio.scss'
 
 function Bio({
   intro,
@@ -11,11 +11,11 @@ function Bio({
   desc,
 }) {
   return (
-    <div className="main ">
-      <h1 className="main__intro ">{intro}</h1>
-      <h1 className="main__name ">{name}</h1>
-      <p className="main__desc">{desc}</p>
-      <div className="main__social">
+    <div className="bio ">
+      <h1 className="bio__intro ">{intro}</h1>
+      <h1 className="bio__name ">{name}</h1>
+      <p className="bio__desc">{desc}</p>
+      <div className="bio__social">
         <div>
           <img className="github" src={github} alt="github" />
         </div>

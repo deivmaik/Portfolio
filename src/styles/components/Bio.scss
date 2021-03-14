@@ -2,7 +2,7 @@
 @import '../mixins';
 @import '../globals';
 
-.main {
+.bio {
   text-align: center;
   @include breakpoint-up(large) {
     margin: 0;
@@ -19,7 +19,6 @@
     }
   }
   &__name {
-    margin-top: -2rem;
     font-size: $font-xl;
     color: $Blue;
     font-weight: bold;

@@ -5,7 +5,7 @@
 .main__layout {
   overflow: hidden;
   @include breakpoint-up(large) {
-    margin-top: 0;
+    margin-top: -8rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
