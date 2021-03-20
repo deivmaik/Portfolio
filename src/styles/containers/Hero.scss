@@ -4,10 +4,32 @@
 
 .main__layout {
   overflow: hidden;
+  // @include breakpoint-up(large) {
+  //   margin-top: -8rem;
+  //   display: flex;
+  //   justify-content: space-around;
+  //   align-items: center;
+  // }
+
   @include breakpoint-up(large) {
-    margin-top: -8rem;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
     align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      'bio me'
+      'desc me';
+  }
+
+  .main__info {
+    grid-area: bio;
+  }
+
+  .desc {
+    grid-area: desc;
+  }
+
+  .hero__photo {
+    grid-area: me;
   }
 }

@@ -17,6 +17,10 @@
     @include breakpoint-up(medium) {
       font-size: $font-desktop-xl;
     }
+
+    @include breakpoint-up(large) {
+      margin-top: 0rem;
+    }
   }
   &__name {
     font-size: $font-xl;

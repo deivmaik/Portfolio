@@ -10,7 +10,7 @@
       margin-left: 10rem;
     }
     @include breakpoint-up(large) {
-      margin-left: 15rem;
+      // margin-left: 15rem;
     }
     img {
       height: 60rem;
@@ -21,8 +21,8 @@
       }
       @include breakpoint-up(large) {
         height: 60rem;
-        margin-top: 16rem;
-        margin-right: -5rem;
+        // margin-top: 16rem;
+        // margin-right: -5rem;
       }
     }
   }

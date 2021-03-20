@@ -10,8 +10,8 @@ function Hero() {
     <div className="main__layout container">
       <div className="main__info">
       <Bio {...bioObj} />
-      <Desc/>
       </div>
+      <Desc/>
       <Me />
     </div>
   )
