@@ -5,7 +5,9 @@
 .bio {
   text-align: center;
   @include breakpoint-up(large) {
-    margin: 0;
+    // margin: 0;
+    top: 100%;
+    transform: translateY(65%);
     text-align: start;
   }
   &__intro {

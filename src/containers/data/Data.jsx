@@ -3,3 +3,8 @@ export const bioObj = {
     name:'Michael Juarez',
     desc:'Developer, Designer, Architect.',
 }
+
+export const descMain = {
+    title: 'About me:',
+    
+}

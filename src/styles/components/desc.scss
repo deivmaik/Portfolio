@@ -3,8 +3,21 @@
 @import '../globals';
 
 .desc {
-  &__info {
-    font-size: $font-small;
-    color: $Grey;
+  top: 100%;
+  transform: translateY(-5%);
+  color: $Grey;
+
+  &__title {
+  }
+
+  &__list-container {
+  }
+
+  &__list-item {
+    line-height: 2.5rem;
+  }
+
+  &__footer {
+    margin-top: 2.5rem;
   }
 }

@@ -15,7 +15,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 40%;
     grid-template-areas:
       'bio me'
       'desc me';
