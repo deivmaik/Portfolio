@@ -3,18 +3,23 @@ import '../styles/components/desc.scss'
 
 function Desc({
     title,
+    first,
+    second,
+    third,
+    forth,
+    last
   }) {
     return (
         <div className="desc hide-for-mobile">
             <h4 className="desc__title">{title}</h4>
             <ul className="desc__list-container">
-                <li className="desc__list-item">Born in “Buenos Aires -Argentina”</li>
-                <li className="desc__list-item">28 years old</li>
-                <li className="desc__list-item">Licensed Architect</li>
-                <li className="desc__list-item">Self taught programmer & designer</li>
+                <li className="desc__list-item">{first}</li>
+                <li className="desc__list-item">{second}</li>
+                <li className="desc__list-item">{third}</li>
+                <li className="desc__list-item">{forth}</li>
             </ul>
             <p className="desc__footer">
-            Feel free to contact me on LinkedIn !
+            {last}
             </p>
             
 
