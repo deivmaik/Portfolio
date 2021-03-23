@@ -21,8 +21,6 @@ function Desc({
             <p className="desc__footer">
             {last}
             </p>
-            
-
         </div>
     )
 }

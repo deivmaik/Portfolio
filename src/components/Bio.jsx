@@ -9,6 +9,7 @@ function Bio({
   intro,
   name,
   desc,
+  onHover
 }) {
   return (
     <div className="bio ">
@@ -16,7 +17,9 @@ function Bio({
       <h1 className="bio__name ">{name}</h1>
       <p className="bio__desc">{desc}</p>
       <div className="bio__social">
-        <div>
+        <div
+          onMouseEnter={() => onHover('github') }
+        >
           <img className="github" src={github} alt="github" />
         </div>
 
@@ -28,7 +31,9 @@ function Bio({
           <img className="archinect" src={archinect} alt="archinect" />
         </div>
 
-        <div>
+        <div
+          onMouseEnter={() => onHover('linkedin') }
+        >
           <img className="linkedIn" src={linkedIn} alt="linkedIn" />
         </div>
 

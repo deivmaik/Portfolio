@@ -1,17 +1,24 @@
-import React, { Fragment } from 'react'
+import React, { useState } from 'react'
 import Bio from '../components/bio'
 import Desc from '../components/Desc'
 import Me from '../components/Me'
 import '../styles/containers/hero.scss'
-import { bioObj, descMain } from './data/Data'
+import { bioObj, descriptions } from './data/Data'
 
 function Hero() {
+
+  const [descShowing, setDescShowing] = useState(descriptions.descMain);
+
+  const handleHover = (newDesc) => {
+    setDescShowing(descriptions[newDesc])
+  }
+
   return (
     <div className="main__layout container">
       <div className="main__info">
-      <Bio {...bioObj} />
+      <Bio {...bioObj} onHover={handleHover} />
       </div>
-      <Desc {...descMain}/>
+      <Desc {...descShowing}/>
       <Me />
     </div>
   )
