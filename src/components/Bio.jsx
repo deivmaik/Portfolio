@@ -17,24 +17,27 @@ function Bio({
       <h1 className="bio__name ">{name}</h1>
       <p className="bio__desc">{desc}</p>
       <div className="bio__social">
-        <div
-          onMouseEnter={() => onHover('github') }
-        >
-          <img className="github" src={github} alt="github" />
-        </div>
-
-        <div>
-          <img className="behance" src={behance} alt="behance" />
-        </div>
-
-        <div>
-          <img className="archinect" src={archinect} alt="archinect" />
-        </div>
-
+        
         <div
           onMouseEnter={() => onHover('linkedin') }
         >
           <img className="linkedIn" src={linkedIn} alt="linkedIn" />
+        </div>
+
+        <div onMouseEnter={() => onHover('archinect') }
+        >
+          <img className="archinect" src={archinect} alt="archinect" />
+        </div>
+
+        <div onMouseEnter={() => onHover('behance') }
+        >
+          <img className="behance" src={behance} alt="behance" />
+        </div>
+
+        <div
+          onMouseEnter={() => onHover('github') }
+        >
+          <img className="github" src={github} alt="github" />
         </div>
 
       </div>
