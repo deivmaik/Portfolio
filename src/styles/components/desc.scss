@@ -22,4 +22,104 @@
   &__footer {
     margin-top: 2.5rem;
   }
+
+  // MAIN SQUARE
+  .square {
+    position: absolute;
+    height: 5.5rem;
+    width: 5.5rem;
+
+    background: #eeeeee;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+    &__image {
+      height: 5.5rem;
+      width: 5.5rem;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .code__one {
+    left: 55rem;
+    top: 10rem;
+
+    .postman {
+      background-image: url(/src/img/code/postman.svg);
+      background-size: 55%;
+    }
+  }
+
+  .code__two {
+    left: 60rem;
+    top: -3rem;
+
+    .mysql {
+      background-image: url(/src/img/code/mysql.svg);
+      background-size: 55%;
+    }
+  }
+
+  .code__three {
+    left: 65rem;
+    top: -15rem;
+
+    .typescript {
+      background-image: url(/src/img/code/typescript.svg);
+      background-size: 45%;
+    }
+  }
+
+  .code__four {
+    left: 70rem;
+    top: -25rem;
+
+    .aws {
+      background-image: url(/src/img/code/aws.svg);
+      background-size: 45%;
+    }
+  }
+
+  .code__fifth {
+    left: 105rem;
+    top: 10rem;
+
+    .html {
+      background-image: url(/src/img/code/html.svg);
+      background-size: 45%;
+    }
+  }
+
+  .code__sixth {
+    left: 100rem;
+    top: -3rem;
+
+    .sass {
+      background-image: url(/src/img/code/sass.svg);
+      background-size: 55%;
+    }
+  }
+
+  .code__seventh {
+    left: 95rem;
+    top: -15rem;
+
+    .javascript {
+      background-image: url(/src/img/code/javascript.svg);
+      background-size: 45%;
+    }
+  }
+
+  .code__eighth {
+    left: 90rem;
+    top: -25rem;
+
+    .react {
+      background-image: url(/src/img/code/react.svg);
+      background-size: 45%;
+    }
+  }
 }
