@@ -6,12 +6,12 @@ export const bioObj = {
 
 export const descriptions = {
     descMain : {
-        title: ' ',
-        first: ' ',
+        title: '. ',
+        first: '. ',
         second: 'You can hover on each icon to see more info ',
         third: ' or click them to be redirected to the portfolios',
-        forth: ' ',
-        last: ' '
+        forth: '. ',
+        last: '. '
     },
     linkedin : {
         title: 'About me:',
