@@ -9,8 +9,8 @@
     @include breakpoint-up(medium) {
       margin-left: 10rem;
     }
-    @include breakpoint-up(large) {
-      // margin-left: 0rem;
+    @include breakpoint-up(xl) {
+      margin-left: 20rem;
     }
     img {
       height: 60rem;
@@ -19,9 +19,16 @@
         height: 58rem;
         margin-top: 7rem;
       }
+
       @include breakpoint-up(large) {
         height: 60rem;
         margin-top: 8rem;
+        margin-right: 3rem;
+      }
+
+      @include breakpoint-up(xl) {
+        height: 80rem;
+        margin-top: 23rem;
         margin-right: 3rem;
       }
     }

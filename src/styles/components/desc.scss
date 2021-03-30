@@ -7,6 +7,11 @@
   transform: translateY(-5%);
   color: $Grey;
 
+  @include breakpoint-up(xl){
+    top: 100%;
+    transform: translateY(-55%);
+  }
+
   &__title {
   }
 
@@ -35,17 +40,31 @@
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 
+    @include breakpoint-up(xl) {
+      height: 7.3rem;
+      width: 7.3rem;
+    }
+
     &__image {
       height: 5.5rem;
       width: 5.5rem;
       background-repeat: no-repeat;
       background-position: center;
+
+      @include breakpoint-up(xl) {
+      height: 7.3rem;
+      width: 7.3rem;
+    }
     }
   }
 
   .code__one {
     left: 55rem;
     top: 10rem;
+
+    @include breakpoint-up(xl) {
+      left: 100rem
+    }
 
     .postman {
       background-image: url(/src/img/code/postman.svg);
@@ -56,6 +75,10 @@
   .code__two {
     left: 60rem;
     top: -3rem;
+    
+     @include breakpoint-up(xl) {
+      left: 105rem
+    }
 
     .mysql {
       background-image: url(/src/img/code/mysql.svg);
@@ -67,6 +90,10 @@
     left: 65rem;
     top: -15rem;
 
+     @include breakpoint-up(xl) {
+      left: 110rem
+    }
+
     .typescript {
       background-image: url(/src/img/code/typescript.svg);
       background-size: 45%;
@@ -76,6 +103,10 @@
   .code__four {
     left: 70rem;
     top: -25rem;
+
+     @include breakpoint-up(xl) {
+      left: 115rem
+    }
 
     .aws {
       background-image: url(/src/img/code/aws.svg);
@@ -87,6 +118,10 @@
     left: 115rem;
     top: 10rem;
 
+    @include breakpoint-up(xl) {
+      left: 173rem
+    }
+
     .html {
       background-image: url(/src/img/code/html.svg);
       background-size: 45%;
@@ -96,6 +131,10 @@
   .code__sixth {
     left: 112rem;
     top: -3rem;
+
+    @include breakpoint-up(xl) {
+      left: 168rem
+    }
 
     .sass {
       background-image: url(/src/img/code/sass.svg);
@@ -107,6 +146,10 @@
     left: 107rem;
     top: -15rem;
 
+    @include breakpoint-up(xl) {
+      left: 162rem
+    }
+
     .javascript {
       background-image: url(/src/img/code/javascript.svg);
       background-size: 45%;
@@ -116,6 +159,10 @@
   .code__eighth {
     left: 102rem;
     top: -25rem;
+
+    @include breakpoint-up(xl) {
+      left: 158rem
+    }
 
     .react {
       background-image: url(/src/img/code/react.svg);

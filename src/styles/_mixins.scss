@@ -6,9 +6,12 @@
 // 640px, 1024px, 1400px
 $breakpoints-up: (
   'medium': '40em',
-  'large': '64em',
-  'xl': '87.5em',
+  'large': '85em', 
+  // old:64
+  'xl': '120em', 
+  // old:87.5
 );
+
 
 // 639px, 1023px, 1399px
 $breakpoints-down: (

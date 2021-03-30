@@ -54,8 +54,8 @@ a:hover {
   max-width: 121rem;
   margin: 0 auto;
 
-  @include breakpoint-up(xlarge) {
-    max-width: 140rem;
+  @include breakpoint-up(xl) {
+    max-width: 181rem;
     margin: 0 auto;
   }
 
