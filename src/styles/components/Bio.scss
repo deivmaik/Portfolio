@@ -23,6 +23,10 @@
     @include breakpoint-up(large) {
       margin-top: -10rem;
     }
+
+    @include breakpoint-up(xl) {
+      font-size: $font-desktop-xxl;
+    }
   }
   &__name {
     font-size: $font-xl;
@@ -32,6 +36,9 @@
       margin-top: -3.5rem;
       font-size: $font-desktop-xl;
     }
+    @include breakpoint-up(xl) {
+      font-size: $font-desktop-xxl;
+    }
   }
   &__desc {
     margin-top: -1rem;
@@ -39,6 +46,9 @@
     color: $Grey;
     @include breakpoint-up(medium) {
       font-size: $font-large;
+    }
+    @include breakpoint-up(xl) {
+      font-size: 2.2rem;
     }
   }
 
@@ -59,6 +69,11 @@
     .archinect {
       height: 2.5rem;
       margin: 0 2rem;
+
+      @include breakpoint-up(xl) {
+        height: 2.6rem;
+        margin: 0 2.8rem;
+      }
     }
   }
 }

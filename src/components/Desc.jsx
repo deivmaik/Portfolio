@@ -21,7 +21,7 @@ function Desc({
             <p className="desc__footer">
             {last}
             </p>
-            <div>
+            <div >
                 <div className="square code__one">
                     <div className="square__image postman"></div>
                 </div>
