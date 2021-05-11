@@ -6,12 +6,12 @@ export const bioObj = {
 
 export const descriptions = {
     descMain : {
-        title: '. ',
-        first: '. ',
-        second: 'You can hover on each icon to see more info ',
-        third: ' or click them to be redirected to the portfolios',
-        forth: '. ',
-        last: '. '
+        title: 'About me:',
+        first: '- Born in “Buenos Aires - Argentina”',
+        second: '- 28 years old' ,
+        third: ' - Licensed Architect',
+        forth: '- Self taught programmer & designer',
+        last: 'Please click or hover the icons for more information '
     },
     linkedin : {
         title: 'About me:',
@@ -41,7 +41,7 @@ export const descriptions = {
         title: 'Design :',
         first: '- Self taught designer since 2010',
         second: '- Web designer',
-        third: '- UI Designer',
+        third: '- UI/UX Designer',
         forth: '',
         last: 'You can see some of my design work at Behance.'
     }

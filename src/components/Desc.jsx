@@ -23,26 +23,26 @@ function Desc({
             </p>
             <div >
                 <div className="square code__one">
-                    <div className="square__image postman"></div>
+                    <div className="square__image threedmax"></div>
                 </div>
                 <div className="square code__two">
-                    <div className="square__image mysql"></div>
+                    <div className="square__image revit"></div>
                 </div>
                 <div className="square code__three">
-                    <div className="square__image typescript"></div>
+                    <div className="square__image webflow"></div>
                 </div>
                 <div className="square code__four">
-                    <div className="square__image aws"></div>
+                    <div className="square__image figma"></div>
                 </div>
 
                 <div className="square code__fifth">
-                    <div className="square__image html"></div>
+                    <div className="square__image aws"></div>
                 </div>
                 <div className="square code__sixth">
-                    <div className="square__image sass"></div>
+                    <div className="square__image mysql"></div>
                 </div>
                 <div className="square code__seventh">
-                    <div className="square__image javascript"></div>
+                    <div className="square__image sass"></div>
                 </div>
                 <div className="square code__eighth">
                     <div className="square__image react"></div>
