@@ -4,10 +4,10 @@
 
 .desc {
   top: 100%;
-  transform: translateY(-5%);
+  transform: translateY(-35%);
   color: $Grey;
 
-  @include breakpoint-up(xl){
+  @include breakpoint-up(xl) {
     top: 100%;
     transform: translateY(-55%);
   }
@@ -52,9 +52,9 @@
       background-position: center;
 
       @include breakpoint-up(xl) {
-      height: 7.3rem;
-      width: 7.3rem;
-    }
+        height: 7.3rem;
+        width: 7.3rem;
+      }
     }
   }
 
@@ -63,7 +63,7 @@
     top: 10rem;
 
     @include breakpoint-up(xl) {
-      left: 100rem
+      left: 100rem;
     }
 
     .postman {
@@ -75,9 +75,9 @@
   .code__two {
     left: 60rem;
     top: -3rem;
-    
-     @include breakpoint-up(xl) {
-      left: 105rem
+
+    @include breakpoint-up(xl) {
+      left: 105rem;
     }
 
     .mysql {
@@ -90,8 +90,8 @@
     left: 65rem;
     top: -15rem;
 
-     @include breakpoint-up(xl) {
-      left: 110rem
+    @include breakpoint-up(xl) {
+      left: 110rem;
     }
 
     .typescript {
@@ -104,8 +104,8 @@
     left: 70rem;
     top: -25rem;
 
-     @include breakpoint-up(xl) {
-      left: 115rem
+    @include breakpoint-up(xl) {
+      left: 115rem;
     }
 
     .aws {
@@ -119,7 +119,7 @@
     top: 10rem;
 
     @include breakpoint-up(xl) {
-      left: 173rem
+      left: 173rem;
     }
 
     .html {
@@ -133,7 +133,7 @@
     top: -3rem;
 
     @include breakpoint-up(xl) {
-      left: 168rem
+      left: 168rem;
     }
 
     .sass {
@@ -147,7 +147,7 @@
     top: -15rem;
 
     @include breakpoint-up(xl) {
-      left: 162rem
+      left: 162rem;
     }
 
     .javascript {
@@ -161,7 +161,7 @@
     top: -25rem;
 
     @include breakpoint-up(xl) {
-      left: 158rem
+      left: 158rem;
     }
 
     .react {

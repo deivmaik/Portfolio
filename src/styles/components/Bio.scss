@@ -21,10 +21,8 @@
     }
 
     @include breakpoint-up(large) {
-      margin-top: 0rem;
+      margin-top: -10rem;
     }
-
-    
   }
   &__name {
     font-size: $font-xl;
