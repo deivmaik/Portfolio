@@ -5,6 +5,7 @@ import linkedIn from '../img/icons/linkedin.svg'
 import archinect from '../img/icons/archinect.svg'
 import '../styles/components/bio.scss'
 
+
 function Bio({
   intro,
   name,
@@ -21,23 +22,31 @@ function Bio({
         <div
           onMouseEnter={() => onHover('linkedin') }
         >
-          <img className="linkedIn" src={linkedIn} alt="linkedIn" />
+          <a href="https://www.linkedin.com/in/michaelbiz/">
+            <img className="linkedIn" src={linkedIn} alt="linkedIn" />
+          </a>
         </div>
 
         <div onMouseEnter={() => onHover('archinect') }
         >
+         <a href="https://archinect.com/michaeljuarez">
           <img className="archinect" src={archinect} alt="archinect" />
+         </a>
         </div>
 
         <div onMouseEnter={() => onHover('behance') }
         >
-          <img className="behance" src={behance} alt="behance" />
+          <a href="https://www.behance.net/deivmaik">
+            <img className="behance" src={behance} alt="behance" />
+          </a>
         </div>
 
         <div
           onMouseEnter={() => onHover('github') }
         >
-          <img className="github" src={github} alt="github" />
+          <a href="https://github.com/deivmaik">
+            <img className="github" src={github} alt="github" />
+          </a>
         </div>
 
       </div>
