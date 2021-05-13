@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Bio from '../components/bio'
+import Bio from '../components/Bio'
 import Desc from '../components/Desc'
 import Me from '../components/Me'
 import '../styles/containers/hero.scss'
